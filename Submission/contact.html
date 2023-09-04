@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-header">
+      <header class="header">
+        <div class="container-logo">
+          <img
+            class="logo"
+            src="/Submission/images/logo-transparent.png"
+            alt="Logo"
+          />
+        </div>
+        <ul class="nav">
+          <li class="nav-link"><a href="/Submission/index.html">Home</a></li>
+          <li class="nav-link">
+            <a href="/Submission/contact.html">Contact</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <main>
+      <h1 class="page-heading">Feel free to get in touch anytime</h1>
+      <div class="section-form">
+        <form
+          class="form"
+          action="https://formspree.io/f/xgejvvaa"
+          method="post"
+        >
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Contact us</button>
+        </form>
+        <div class="contact-details">
+          <h2 class="heading-contact-details">Contact Details</h2>
+          <div class="text-contact-details">
+            <p class="no-line-break-above">123 Fake Street,</p>
+            <p class="no-line-break-above">Auckland,</p>
+            <p class="no-line-break-above">New Zealand</p>
+            <p class="line-break-above">Phone: 09 123 45678</p>
+            <p class="no-line-break-above">
+              Email: sales@plantsandthings.co.nz
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
