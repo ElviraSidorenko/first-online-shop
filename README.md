@@ -6,10 +6,7 @@ Welcome to the Online Shop Project! This project is a simple website created bas
 - [Project Overview](#project-overview)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
